@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 
 # Path to the dataset directory
-dataset_dir = '/Users/aditya/PycharmProjects/mlai_project/dataset'
+dataset_dir = '/Users/aditya/dataset'
 
 # Load images and labels into arrays
 def load_data(dataset_dir):
